@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.5/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Victoria</region>
+            <office>VICRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDV10450</identifier>
+        <issue-time-utc>2015-02-22T05:20:09Z</issue-time-utc>
+        <issue-time-local tz="EDT">2015-02-22T16:20:09+11:00</issue-time-local>
+        <sent-time>2015-02-22T05:20:09Z</sent-time>
+        <expiry-time>2015-02-23T05:20:00Z</expiry-time>
+        <validity-bgn-time-local tz="EDT">2015-02-22T16:20:09+11:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EDT">2015-03-01T23:59:59+11:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2015-02-22T18:05:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EDT">2015-02-23T05:05:00+11:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="VIC_FA001" description="Victoria" type="region">
+            <forecast-period start-time-local="2015-02-22T16:20:09+11:00" end-time-local="2015-02-22T16:20:09+11:00" start-time-utc="2015-02-22T05:20:09Z" end-time-utc="2015-02-22T05:20:09Z">
+                <text type="warning_summary_footer">Details of warnings are available on the Bureau's website www.bom.gov.au, by telephone 1300-659-217* or through some TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_ME001" description="Melbourne" type="metropolitan" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2015-02-22T17:00:00+11:00" end-time-local="2015-02-23T00:00:00+11:00" start-time-utc="2015-02-22T06:00:00Z" end-time-utc="2015-02-22T13:00:00Z">
+                <text type="forecast">Medium (50%) chance of showers and storms in the northern and eastern suburbs, high (70%) in the west, clearing later this evening. Heavy falls possible with storms. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers, most likely in the afternoon and clearing in the evening. The chance of a thunderstorm. Winds northerly 15 to 25 km/h increasing to 25 to 40 km/h early in the morning then shifting southerly 20 to 30 km/h in the early afternoon.</text>
+                <text type="fire_danger">High</text>
+                <text type="uv_alert">UV Alert from 9:50 am to 5:10 pm, UV Index predicted to reach 10 [Very High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2015-02-24T00:00:00+11:00" end-time-local="2015-02-25T00:00:00+11:00" start-time-utc="2015-02-23T13:00:00Z" end-time-utc="2015-02-24T13:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower at night. Winds southerly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2015-02-25T00:00:00+11:00" end-time-local="2015-02-26T00:00:00+11:00" start-time-utc="2015-02-24T13:00:00Z" end-time-utc="2015-02-25T13:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of showers. Winds southerly 15 to 20 km/h tending east to southeasterly 15 to 25 km/h during the morning then becoming light during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2015-02-26T00:00:00+11:00" end-time-local="2015-02-27T00:00:00+11:00" start-time-utc="2015-02-25T13:00:00Z" end-time-utc="2015-02-26T13:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming south to southwesterly 15 to 20 km/h during the day then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2015-02-27T00:00:00+11:00" end-time-local="2015-02-28T00:00:00+11:00" start-time-utc="2015-02-26T13:00:00Z" end-time-utc="2015-02-27T13:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2015-02-28T00:00:00+11:00" end-time-local="2015-03-01T00:00:00+11:00" start-time-utc="2015-02-27T13:00:00Z" end-time-utc="2015-02-28T13:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers later in the day. Winds north to northwesterly 25 to 40 km/h shifting south to southwesterly 15 to 20 km/h around late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2015-03-01T00:00:00+11:00" end-time-local="2015-03-02T00:00:00+11:00" start-time-utc="2015-02-28T13:00:00Z" end-time-utc="2015-03-01T13:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of morning showers. Winds southerly 15 to 25 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT042" description="Melbourne" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="0" start-time-local="2015-02-22T17:00:00+11:00" end-time-local="2015-02-23T00:00:00+11:00" start-time-utc="2015-02-22T06:00:00Z" end-time-utc="2015-02-22T13:00:00Z">
+                <element type="forecast_icon_code">16</element>
+                <text type="precis">Thunderstorm.</text>
+                <text type="probability_of_precipitation">60%</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="forecast_icon_code">16</element>
+                <element type="air_temperature_minimum" units="Celsius">25</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <element type="precipitation_range">0 to 1 mm</element>
+                <text type="precis">Shower, possible storm.</text>
+                <text type="probability_of_precipitation">60%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2015-02-24T00:00:00+11:00" end-time-local="2015-02-25T00:00:00+11:00" start-time-utc="2015-02-23T13:00:00Z" end-time-utc="2015-02-24T13:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">20</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2015-02-25T00:00:00+11:00" end-time-local="2015-02-26T00:00:00+11:00" start-time-utc="2015-02-24T13:00:00Z" end-time-utc="2015-02-25T13:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2015-02-26T00:00:00+11:00" end-time-local="2015-02-27T00:00:00+11:00" start-time-utc="2015-02-25T13:00:00Z" end-time-utc="2015-02-26T13:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2015-02-27T00:00:00+11:00" end-time-local="2015-02-28T00:00:00+11:00" start-time-utc="2015-02-26T13:00:00Z" end-time-utc="2015-02-27T13:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+                <text type="precis">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2015-02-28T00:00:00+11:00" end-time-local="2015-03-01T00:00:00+11:00" start-time-utc="2015-02-27T13:00:00Z" end-time-utc="2015-02-28T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+                <text type="precis">Late shower or two.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2015-03-01T00:00:00+11:00" end-time-local="2015-03-02T00:00:00+11:00" start-time-utc="2015-02-28T13:00:00Z" end-time-utc="2015-03-01T13:00:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">18</element>
+                <text type="precis">Possible early shower.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT025" description="Geelong" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">22</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT037" description="Laverton" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">24</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT073" description="Tullamarine" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">23</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT065" description="Scoresby" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">23</element>
+                <element type="air_temperature_maximum" units="Celsius">30</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT078" description="Watsonia" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">23</element>
+                <element type="air_temperature_maximum" units="Celsius">30</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT047" description="Mount Dandenong" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT082" description="Yarra Glen" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">31</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT023" description="Frankston" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2015-02-23T00:00:00+11:00" end-time-local="2015-02-24T00:00:00+11:00" start-time-utc="2015-02-22T13:00:00Z" end-time-utc="2015-02-23T13:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">23</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
