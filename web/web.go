@@ -19,6 +19,10 @@ func init() {
 	}
 }
 
+type IndexContext struct {
+	Weather []bom.Forecast
+}
+
 func Serve() {
 	http.HandleFunc("/", func(rw http.ResponseWriter, r *http.Request) {
 		if r.URL.Path == "/" {
@@ -26,7 +30,7 @@ func Serve() {
 			if err != nil {
 				http.Error(rw, err.Error(), http.StatusInternalServerError)
 			} else {
-				t.Execute(rw, bom.Sample)
+				t.Execute(rw, IndexContext{bom.Sample})
 			}
 		} else {
 			http.ServeFile(rw, r, "templates"+r.URL.Path)
