@@ -1,3 +1,14 @@
-{{ range . }}
+Checklist for leaving the house
+
+You
+ * Have slept enough to walk around
+ * Sunscreen/hat/water
+William stuff
+ * Sunscreen
+ * Change nappy
+ * Will he need a feed?
+ * Will he be too hot? Too cold? Check outside!
+
+{{ range .Weather }}
   {{ .MaxTemperature }}
 {{ end }}

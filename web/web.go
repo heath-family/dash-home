@@ -35,7 +35,6 @@ func Serve() {
 		} else {
 			http.ServeFile(rw, r, "templates"+r.URL.Path)
 		}
-
 	})
 	err := http.ListenAndServe(port, nil)
 	if err != nil {
