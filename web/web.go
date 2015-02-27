@@ -1,6 +1,7 @@
 package web
 
 import (
+	"github.com/99designs/goodies/http/log"
 	"github.com/danielheath/dash-home/bom"
 	"html/template"
 	"net/http"
@@ -24,18 +25,22 @@ type IndexContext struct {
 }
 
 func Serve() {
-	http.HandleFunc("/", func(rw http.ResponseWriter, r *http.Request) {
-		if r.URL.Path == "/" {
-			t, err := template.ParseFiles("templates/index.html")
-			if err != nil {
-				http.Error(rw, err.Error(), http.StatusInternalServerError)
+	http.Handle("/", log.CommonLogHandler(
+		nil,
+		"",
+		http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {
+			if r.URL.Path == "/" {
+				t, err := template.ParseFiles("templates/index.html")
+				if err != nil {
+					http.Error(rw, err.Error(), http.StatusInternalServerError)
+				} else {
+					t.Execute(rw, IndexContext{bom.Sample})
+				}
 			} else {
-				t.Execute(rw, IndexContext{bom.Sample})
+				http.ServeFile(rw, r, "templates"+r.URL.Path)
 			}
-		} else {
-			http.ServeFile(rw, r, "templates"+r.URL.Path)
-		}
-	})
+		}),
+	))
 	err := http.ListenAndServe(port, nil)
 	if err != nil {
 		panic(err)
