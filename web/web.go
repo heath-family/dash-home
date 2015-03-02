@@ -2,7 +2,7 @@ package web
 
 import (
 	"github.com/99designs/goodies/http/log"
-	"github.com/danielheath/dash-home/bom"
+	"github.com/heath-family/dash-home/bom"
 	"html/template"
 	"net/http"
 	"os"

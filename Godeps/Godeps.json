@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/danielheath/dash-home",
+	"ImportPath": "github.com/heath-family/dash-home",
 	"GoVersion": "go1.4",
 	"Deps": [
 		{

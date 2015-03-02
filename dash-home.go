@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/danielheath/dash-home/web"
+	"github.com/heath-family/dash-home/web"
 )
 
 func main() {
