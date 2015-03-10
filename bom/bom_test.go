@@ -13,6 +13,7 @@ func TestParse(t *testing.T) {
 	forecasts, err := parse(f)
 	if err != nil {
 		t.Error(err.Error())
+		return
 	}
 	if forecasts[0].Precipitation != 60 {
 		t.Error("Expected 60")
@@ -25,4 +26,4 @@ func TestParse(t *testing.T) {
 	}
 }
 
-// "VIC_PT042"
+// "VIC_PT042" -> melbourne, bit we care about
