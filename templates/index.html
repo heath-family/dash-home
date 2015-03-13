@@ -1,3 +1,4 @@
+<html><head><title>Dashboard</title></head><body>
 Checklist for leaving the house
 
 You
@@ -10,5 +11,17 @@ William stuff
  * Will he be too hot? Too cold? Check outside!
 
 {{ range .Weather }}
-  {{ .MaxTemperature }}
+<hr/>
+  {{ .Date }}:
+  {{ .Description }}
+  {{ if .ChanceOfRain }}
+    {{ .ChanceOfRain }} chance of rain.
+  {{ end }}
+
+  {{ if .PreciseForecast }}
+    Temperatures from {{ .MinTemperature }} to {{ .MaxTemperature }}
+  {{ end }}
+
 {{ end }}
+
+</body></html>

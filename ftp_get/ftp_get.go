@@ -50,7 +50,7 @@ func splitUrl(u *url.URL) (f fields, e error) {
 
 func Get(u *url.URL) (io.Reader, error) {
 	b := bytes.Buffer{}
-	ftpClient := ftp4go.NewFTP(1)
+	ftpClient := ftp4go.NewFTP(0)
 
 	f, err := splitUrl(u)
 	if err != nil {
